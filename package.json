@@ -1,0 +1,22 @@
+{
+	"name": "summer-night-0356",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler deploy",
+		"dev": "wrangler dev",
+		"start": "wrangler dev",
+		"test": "jest"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.23.2",
+		"@babel/preset-env": "^7.23.2",
+		"@babel/preset-typescript": "^7.23.2",
+		"@cloudflare/workers-types": "^4.20231016.0",
+		"@types/jest": "^29.5.6",
+		"babel-jest": "^29.7.0",
+		"jest": "^29.7.0",
+		"typescript": "^5.0.4",
+		"wrangler": "^3.0.0"
+	}
+}
